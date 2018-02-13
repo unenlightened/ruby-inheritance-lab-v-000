@@ -23,7 +23,7 @@ jim.last_name = "Smith"
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-jim.learn(some_knowledge)
+#  jim.learn(some_knowledge) doesn't run bc a regular user doesn't have learn ability
 
 i=1
 3.times do
