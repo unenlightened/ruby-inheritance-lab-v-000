@@ -40,5 +40,5 @@ chely.last_name = "Ho"
   chely.learn(some_knowledge)
 end
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.join(", ")}' from Avi"
-puts "Chely just learned this important knowledge: '#{chely.knowledge.join(", ")}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge[0...-1].join(", ")} and #{steve.knowledge.last}' from Avi"
+puts "Chely just learned this important knowledge: '#{chely.knowledge[0...-1].join(", ")} and #{chely.knowledge.last}' from Avi"
