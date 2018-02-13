@@ -24,3 +24,11 @@ jim.last_name = "Smith"
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
 jim.learn(some_knowledge)
+
+i=1
+3.times do
+  some_knowledge = avi.teach
+  steve.learn(some_knowledge)
+  puts "Steve just learned this important knowledge: '#{steve.knowledge[i]}' from Avi"
+  i += 1
+end
