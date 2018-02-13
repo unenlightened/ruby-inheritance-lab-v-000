@@ -26,7 +26,7 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 #  jim.learn(some_knowledge) doesn't run bc a regular user doesn't have learn ability
 
 
-3.times do 
+3.times do
   some_knowledge = avi.teach
   steve.learn(some_knowledge)
 end
@@ -39,3 +39,6 @@ chely.last_name = "Ho"
   some_knowledge = avi.teach
   chely.learn(some_knowledge)
 end
+
+puts "Steve just learned this important knowledge: '#{steve.knowledge.join}' from Avi"
+puts "Chely just learned this important knowledge: '#{chely.knowledge.join}' from Avi"
